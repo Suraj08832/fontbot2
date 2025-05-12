@@ -16,11 +16,7 @@ A Telegram bot that generates stylish text using various font styles and charact
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file and add your bot token:
-   ```
-   BOT_TOKEN=your_bot_token_here
-   ```
-4. Run the bot:
+3. Run the bot:
    ```bash
    python bot.py
    ```
@@ -32,9 +28,7 @@ A Telegram bot that generates stylish text using various font styles and charact
 3. Create a new project
 4. Choose "Deploy from GitHub repo"
 5. Select your forked repository
-6. Add the following environment variable:
-   - `BOT_TOKEN`: Your Telegram bot token
-7. Deploy!
+6. Deploy!
 
 ## Usage
 

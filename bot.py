@@ -114,14 +114,8 @@ async def handle_style_selection(update: Update, context: ContextTypes.DEFAULT_T
 
 def main() -> None:
     """Start the bot."""
-    # Get token from environment variable
-    token = os.getenv('BOT_TOKEN')
-    if not token:
-        logger.error("No BOT_TOKEN found in environment variables!")
-        return
-
-    # Create the Application
-    application = Application.builder().token(token).build()
+    # Create the Application with hardcoded token
+    application = Application.builder().token("7877213016:AAE7cFaUyD8wPFF1PkzNcjvcy9gr0nGuA0c").build()
 
     # Add handlers
     application.add_handler(CommandHandler("start", start))
